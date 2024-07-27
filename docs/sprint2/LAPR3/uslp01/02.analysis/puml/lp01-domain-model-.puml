@@ -1,0 +1,294 @@
+@startuml
+skinparam monochrome true
+skinparam packageStyle rectangle
+skinparam shadowing false
+
+'left to right direction
+
+skinparam classAttributeIconSize 0
+
+hide circle
+hide methods
+
+class Cliente{
+}
+class Condutor{
+}
+class GestorAgricola{
+}
+class GestorDistribuicao{
+}
+
+class ParcelaAgricola {
+    id
+    designacao
+    area
+}
+
+class Cultura {
+    nome
+
+}
+
+
+class FactorProducao {
+    nomeComercial
+    fabricante
+}
+
+class FatorProducao_tipo{
+   aplicacaoFactorProducao
+}
+
+class TipoFactorProducao{
+    tipoFactorProducao
+}
+
+class FichaTecnica{
+    quantidade
+}
+
+class ElementoSubstancias{
+    nomeElementoSubstancia
+}
+
+
+class SensorMetereologico {
+    marca
+    modelo
+}
+
+class TipoSensorMetereologico{
+    tipoSensorMetereologico
+}
+class LeituraMetereologica {
+    hora
+    pluviosidade
+    temperaturaSolo
+    humidadeSolo
+    velocidadeVento
+    temperaturaAr
+    humidadeAr
+    pressaoAtmosferica
+}
+
+class CadernoCampo {
+
+}
+
+class SistemaDeRega {
+
+}
+class TipoRega{
+}
+
+class Rega{
+    quantidade
+    data
+    parcela
+}
+class SetorDeRegaParcela{
+
+}
+
+class SetorDeRega{
+    debito
+    area
+    designacao
+}
+class TipoDistribuição{
+}
+class ProdutosAgricolas{
+    nomeProdutoAgricola
+
+}
+class EstadoFenologico{
+}
+
+class CulturaParcelaAgricola{
+    quantidade
+    dataInicio
+    dataFim
+}
+
+class Unidade{
+    designação
+}
+
+
+class TipoCultura{
+    tipoCultura
+}
+class Formulacao{
+    tipoFormulacao
+}
+
+class OperacaoAgricola{
+        dataRealizacao
+        quantidadeAplicada
+}
+class TipoOperacaoAgricola{
+tipoOperacaoAgricola
+}
+
+
+class Fertilizacao{
+
+}
+
+class TipoFertilizacao{
+    tipoFertilizacao
+}
+
+class PlanoRega{
+    horasRega
+    duracao
+
+}
+class Regularidade{
+    tipoRegularidade
+}
+class Controlador{
+
+}
+
+class EstacaoMetereologica{
+}
+
+'esinf
+
+class Produtor{
+}
+class HubsDestribuicao{
+    nomeConsumidor
+    nomeProdutor
+}
+class TipodeHub{
+tipoDeHub
+}
+
+class HorarioFuncionamento{
+dataInicio
+dataFim
+}
+class HubsDestribuicaoCabaz{
+}
+
+class Cabaz{
+    nomeProdutor
+    quantidade
+    data
+}
+
+
+'fsiap
+class Estrutura{
+}
+class Zona{
+temperatura
+}
+class ZonaA{
+}
+class ZonaB{
+}
+class ZonaC{
+}
+class ZonaD{
+}
+class ZonaE{
+}
+class Dimensoes{
+altura
+largura
+comprimento
+}
+class Parede{
+}
+class ParedeExterior{
+}
+class ParedeInterior{
+}
+class Porta{
+}
+class Janela{
+}
+class Telhado{
+}
+class Material{
+}
+class CaracteristicasTermicas{
+}
+class PartesDaEstrutura
+
+Cultura "1..*" -- "1" TipoCultura : tem >
+Cultura "1" - "1..*" CulturaParcelaAgricola
+Cultura "1" - "*"  FactorProducao : tem >
+CulturaParcelaAgricola "1..*" -- "1" ParcelaAgricola
+CulturaParcelaAgricola "1..*" -- "1" Unidade : têm >
+Unidade "1" -- "1..*" OperacaoAgricola : tem <
+SensorMetereologico "1" -- "1..*" LeituraMetereologica: faz >
+Formulacao "1" -- "1..*" FactorProducao: tem <
+
+FatorProducao_tipo "1..*" -- "1" TipoFactorProducao: tem >
+FactorProducao "1" -- "1" FatorProducao_tipo: tem >
+
+OperacaoAgricola <|--  Fertilizacao
+OperacaoAgricola "1" -- "1..*"  ParcelaAgricola : tem >
+Cabaz "1" -- "1..*" ProdutosAgricolas : contém >
+Controlador "1" - "1" SistemaDeRega : contém <
+Controlador "1" -- "1" PlanoRega : define >
+OperacaoAgricola "1" - "1" TipoOperacaoAgricola : tem >
+Cabaz "1" -- "1..*" HubsDestribuicaoCabaz : são depositados >
+HubsDestribuicao "1" - "1..*" HubsDestribuicaoCabaz : são depositados >
+SensorMetereologico "1..*" -- "1" TipoSensorMetereologico : tem  >
+ProdutosAgricolas "1..*" -- "1" OperacaoAgricola : recolhidos  >
+
+ElementoSubstancias "1" -- "1..*" FichaTecnica : inclui  <
+PlanoRega "1" -- "1..*" ParcelaAgricola : tem >
+PlanoRega "1" -- "1..*" LeituraMetereologica : contem >
+PlanoRega "1" -- "1..*" Regularidade : tem >
+Fertilizacao "1..*" - "1" TipoFertilizacao : tem >
+FichaTecnica "1..*" - "1" FactorProducao : tem <
+CadernoCampo "1" -- "1..*" OperacaoAgricola : regista >
+CadernoCampo "1" -- "1..*" LeituraMetereologica : regista >
+CadernoCampo "1" -- "1..*" Rega : regista >
+EstacaoMetereologica "1" -- "1..*" SensorMetereologico : constituída por >
+SistemaDeRega -- TipoRega : tem >
+SistemaDeRega -- TipoDistribuição : tem >
+Zona <|--  ZonaA
+Zona <|--  ZonaB
+Zona <|--  ZonaC
+Zona <|--  ZonaD
+Zona <|--  ZonaE
+
+
+Zona -- Dimensoes : tem >
+
+Estrutura -- PartesDaEstrutura : tem >
+Estrutura -- Dimensoes : tem >
+Dimensoes -- PartesDaEstrutura : tem <
+Material -- PartesDaEstrutura : tem <
+CaracteristicasTermicas -- PartesDaEstrutura : tem <
+Parede <|--  ParedeExterior
+Parede <|--  ParedeInterior
+PartesDaEstrutura <|--  Porta
+PartesDaEstrutura <|--  Parede
+PartesDaEstrutura <|--  Telhado
+PartesDaEstrutura <|--  Janela
+HubsDestribuicao -- HorarioFuncionamento : tem
+HubsDestribuicao -- TipodeHub : tem >
+
+SetorDeRega "1..*" -- "1" SetorDeRegaParcela : contêm >
+SetorDeRegaParcela "1" - "1..*" ParcelaAgricola : serve >
+SetorDeRega "1" -- "1..*" Cultura
+SetorDeRega "1"-- "1..*" FactorProducao
+
+Cliente "1" -- "1..*" Cabaz : encomenda >
+Cliente "1" -- "1..*" Cabaz : recolhe >
+Condutor "1" -- "1..*" Cabaz : recolhe >
+GestorAgricola "1" -- "1..*" ParcelaAgricola : gere >
+GestorAgricola "1" -- "1..*" CadernoCampo : regista no >
+GestorDistribuicao"1" -- "1..*" ProdutosAgricolas : recolhe >
+Produtor -- ProdutosAgricolas : produz >
+
+@enduml

@@ -1,0 +1,33 @@
+@startuml
+skinparam monochrome true
+skinparam packageStyle rectangle
+skinparam shadowing false
+
+'left to right direction
+
+skinparam classAttributeIconSize 0
+
+hide circle
+hide methods
+
+class DistMap {
+
+}
+
+class Calculate {
+
+}
+
+class CoordMap {
+
+}
+
+class DistantPathNetwork{
+
+}
+
+class MinimumDistanceNetwork{
+}
+
+
+@enduml

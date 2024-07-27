@@ -1,0 +1,10 @@
+CREATE OR REPLACE TRIGGER trg_log
+BEFORE DELETE OR UPDATE ON Log
+FOR EACH ROW
+BEGIN
+  RAISE_APPLICATION_ERROR(-20001, 'Não é possivel alterar ou apagar logs !');
+END;
+/
+
+
+

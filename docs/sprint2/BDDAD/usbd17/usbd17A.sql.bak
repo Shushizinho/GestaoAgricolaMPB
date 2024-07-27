@@ -1,0 +1,31 @@
+CREATE OR REPLACE FUNCTION ConsultaFatores(
+    p_parcela IN NUMBER,
+    p_data_inicio IN DATE,
+    p_data_fim IN DATE
+)
+RETURN SYS_REFCURSOR
+IS
+    v_cursor SYS_REFCURSOR;
+BEGIN
+OPEN v_cursor FOR
+SELECT fichatecnica.nome, fatorproducao.nomecomercial, SUM(aplicacaofator.quantidadefator) as QUANTIDADETOTAL
+FROM operacaoagricola
+		 INNER JOIN aplicacaofator on aplicacaofator.operacaoagricolaid = operacaoagricola.id
+         INNER JOIN fatorproducao ON fatorproducao.id = aplicacaofator.fatorproducaoid
+         INNER JOIN fichatecnica ON fatorproducao.id = fichatecnica.fatorproducaoid
+         INNER JOIN cultura ON cultura.id = operacaoagricola.culturaid
+WHERE cultura.parcelaagricolaid = p_parcela
+  AND operacaoagricola.datarealizacao BETWEEN p_data_inicio AND p_data_fim
+GROUP BY fichatecnica.nome, fatorproducao.nomecomercial
+ORDER BY fichatecnica.nome;
+
+IF NOT v_cursor%FOUND THEN
+        -- Caso de insucesso (sem dados)
+        CLOSE v_cursor;
+RETURN NULL;
+END IF;
+
+    -- Caso de sucesso (com dados)
+RETURN v_cursor;
+END;
+

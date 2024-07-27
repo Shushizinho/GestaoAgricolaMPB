@@ -1,0 +1,14 @@
+SELECT FATORPRODUCAONOMECOMERCIAL, COUNT(FATORPRODUCAONOMECOMERCIAL) AS numeroaplicacao
+    FROM operacaoagricola
+    where datarealizacao 
+    BETWEEN TO_DATE('10-Dec-2017', 'DD-Mon-YYYY')
+    AND TO_DATE('1-Jul-2018', 'DD-Mon-YYYY')
+    GROUP BY FATORPRODUCAONOMECOMERCIAL
+    HAVING 
+    COUNT(FATORPRODUCAONOMECOMERCIAL) = (
+        SELECT MAX(COUNT(FATORPRODUCAONOMECOMERCIAL)) 
+            FROM operacaoagricola 
+            where datarealizacao 
+            BETWEEN TO_DATE('10-Dec-2017', 'DD-Mon-YYYY') 
+            AND TO_DATE('1-Jul-2018', 'DD-Mon-YYYY') 
+            GROUP BY FATORPRODUCAONOMECOMERCIAL);

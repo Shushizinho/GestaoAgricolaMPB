@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e030880f-2bd2-422a-a5b3-80b28ffdbac3" name="Changes" comment="update files pt 1">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Horarios.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Horarios_ErrorMessage.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Horarios_LocalidadeVazia.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Horarios_NotEnoughtParameters.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Horarios_Nulltxt.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Horarios_WithoutComma.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Horarios_WrongHours.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Horarios_WrongParametersOrder.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/distancias_5.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/distancias_MultipleLines.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/distancias_Null.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/distancias_OneLine.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/distancias_big.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/distancias_mid.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/distancias_small.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/locais_MultipleLines.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/locais_Null.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/locais_OneLine.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/locais_big.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/locais_small.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/generate-plantuml-diagrams.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/generate-plantuml-diagrams.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint1/BDDAD/usbd01/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint1/BDDAD/usbd01/glossário_projeto _integrador.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint1/BDDAD/usbd02/Especificação_Suplementar.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint1/BDDAD/usbd02/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint1/BDDAD/usbd02/logical-diagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint1/BDDAD/usbd02/logical-diagram.vpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint1/BDDAD/usbd02/physical-diagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint1/BDDAD/usbd02/physical-diagram.vpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint1/BDDAD/usbd03/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint1/BDDAD/usbd03/physicaldiagram.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint1/BDDAD/usbd04/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint1/BDDAD/usbd04/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint1/BDDAD/usbd04/import.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint1/BDDAD/usbd05/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint1/BDDAD/usbd05/USBD05.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint1/BDDAD/usbd06/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint1/BDDAD/usbd06/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint1/BDDAD/usbd06/USBD06.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint1/BDDAD/usbd07/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint1/BDDAD/usbd07/USBD07.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint1/BDDAD/usbd08/USBD08.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint1/BDDAD/usbd09/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint1/BDDAD/usbd09/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint1/BDDAD/usbd09/USBD09.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint1/BDDAD/usbd10/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint1/BDDAD/usbd10/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint1/BDDAD/usbd10/USBD10.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint1/LAPR3/lp01/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint1/LAPR3/lp01/02.analysis/Domain_Model_Documentation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint1/LAPR3/lp01/02.analysis/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint1/LAPR3/lp01/02.analysis/puml/lp01-domain-model-.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint1/LAPR3/lp01/02.analysis/svg/lp01-domain-model-.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint1/LAPR3/lp02/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/usac01/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/usac01/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/usac01/usac01_files/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/usac01/usac01_files/extract.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/usac01/usac01_files/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/usac02/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/usac02/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/usac02/usac02_files/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/usac02/usac02_files/asm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/usac02/usac02_files/asm.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/usac02/usac02_files/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/usac03/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/usac03/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/usac03/usac03_files/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/usac03/usac03_files/asm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/usac03/usac03_files/asm.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/usac03/usac03_files/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/usac04/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/usac04/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/usac04/usac04_files/asm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/usac04/usac04_files/asm.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/usac04/usac04_files/asm.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/usac04/usac04_files/main" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/usac04/usac04_files/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/usac04/usac04_files/main.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/usac04/usac04_files/makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/usac05/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/usac05/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/usac05/usa05_files/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/usac05/usa05_files/asm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/usac05/usa05_files/asm.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/usac05/usa05_files/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/utests/usac01/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/utests/usac01/asm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/utests/usac01/callfunc.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/utests/usac01/callfunc.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/utests/usac01/extract.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/utests/usac01/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/utests/usac01/main.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/utests/usac01/prog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/utests/usac02/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/utests/usac02/asm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/utests/usac02/asm.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/utests/usac02/callfunc.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/utests/usac02/callfunc.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/utests/usac02/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/utests/usac02/main.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/utests/usac02/prog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/utests/usac03/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/utests/usac03/asm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/utests/usac03/asm.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/utests/usac03/callfunc.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/utests/usac03/callfunc.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/utests/usac03/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/utests/usac03/main.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/utests/usac03/prog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/utests/usac04/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/utests/usac04/asm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/utests/usac04/asm.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/utests/usac04/callfunc.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/utests/usac04/callfunc.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/utests/usac04/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/utests/usac04/main.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/utests/usac04/prog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/utests/usac05/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/utests/usac05/asm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/utests/usac05/callfunc.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ARQCP/utests/usac05/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/extra/Testes_bd_sprint2.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/extra/fnc_culturas_por_parcela.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/extra/fnc_culturas_por_parcela_sem_produto.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/extra/pro_create_operacao_agricola_rega.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd01/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd01/glossário_projeto _integrador.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd02/02.analysis/logical-diagram.vpp.bak_000f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd02/02.analysis/logical-diagram.vpp.bak_001d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd02/02.analysis/logical-diagram.vpp.bak_002d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd02/02.analysis/logical-diagram.vpp.bak_003d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd02/02.analysis/logical-diagram.vpp.bak_004d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd02/02.analysis/logical-diagram.vpp.bak_005d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd02/02.analysis/logical-diagram.vpp.bak_006d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd02/02.analysis/logical-diagram.vpp.bak_007d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd02/02.analysis/physical-diagram.vpp.bak_000f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd02/02.analysis/physical-diagram.vpp.bak_001d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd02/02.analysis/physical-diagram.vpp.bak_002d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd02/Especificação_Suplementar.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd02/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd02/logical-diagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd02/logical-diagram.vpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd03/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd03/physicaldiagram.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd04/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd04/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd04/import.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd05/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd05/USBD05.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd06/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd06/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd06/USBD06.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd07/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd07/USBD07.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd08/USBD08.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd09/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd09/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd09/USBD09.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd10/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd10/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd10/USBD10.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd11/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd11/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd11/usbd11.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd12/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd12/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd12/usbd12.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd13/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd13/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd13/usbd13.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd14/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd14/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd14/usbd14.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd14/usbd14.sql.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd15/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd15/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd16/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd16/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd16/usbd16.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd17/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd17/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd17/usbd17A.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd17/usbd17A.sql.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd17/usbd17B.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd17/usbd17B.sql.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd18/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd18/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd18/usbd18.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd19/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd19/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd19/usbd19.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd20/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd20/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd21/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd21/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd21/logical-diagram.vpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd21/logical-diagram.vpp.bak_000f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd21/logical-diagram.vpp.bak_001d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd21/logical-diagram.vpp.bak_002d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd21/logical-diagram.vpp.bak_003d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd21/logical-diagram.vpp.bak_004d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd21/logical-diagram.vpp.bak_005d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd21/logical-diagram.vpp.bak_006d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd21/logical-diagram.vpp.bak_007d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd21/logical-diagram.vpp.bak_008d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd21/logical-diagram.vpp.bak_009d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd21/logical-diagram.vpp.bak_010d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd21/logical-diagram.vpp.bak_011d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd21/physicaldiagram.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd22/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd22/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd22/arvorefruto.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd22/import_dados_novos.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd22/import_full.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd23/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd23/Glossário_PI.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/BDDAD/usbd23/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ESINF/usei01/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ESINF/usei01/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ESINF/usei02/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ESINF/usei02/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ESINF/usei03/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ESINF/usei03/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ESINF/usei04/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/ESINF/usei04/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/FSIAP/usfa01/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/FSIAP/usfa01/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/FSIAP/usfa02/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/FSIAP/usfa02/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/FSIAP/usfa03/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/FSIAP/usfa03/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/FSIAP/usfa04/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/FSIAP/usfa04/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/LAPR3/uslp01/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/LAPR3/uslp01/02.analysis/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/LAPR3/uslp01/02.analysis/puml/lp01-domain-model-.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/LAPR3/uslp01/02.analysis/svg/lp01-domain-model-.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/LAPR3/uslp02/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/LAPR3/uslp03/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/LAPR3/uslp03/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/LAPR3/uslp04/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/LAPR3/uslp04/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/LAPR3/uslp05/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/LAPR3/uslp05/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/LAPR3/uslp06/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/LAPR3/uslp06/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/LAPR3/uslp07/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/LAPR3/uslp07/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/LAPR3/uslp08/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/LAPR3/uslp08/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/LAPR3/uslp09/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/LAPR3/uslp09/02.analysis/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/LAPR3/uslp09/02.analysis/puml/lp09-domain-model-.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint2/LAPR3/uslp09/02.analysis/svg/lp09-domain-model.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ARQCP/ColetorDeDados/read_values.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ARQCP/ProcessadorDeDados/ProcessadorDeDados" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ARQCP/ProcessadorDeDados/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ARQCP/ProcessadorDeDados/config.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ARQCP/ProcessadorDeDados/enqueue.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ARQCP/ProcessadorDeDados/enqueue.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ARQCP/ProcessadorDeDados/extract.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ARQCP/ProcessadorDeDados/extract.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ARQCP/ProcessadorDeDados/insert.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ARQCP/ProcessadorDeDados/insert.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ARQCP/ProcessadorDeDados/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ARQCP/ProcessadorDeDados/main.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ARQCP/ProcessadorDeDados/makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ARQCP/ProcessadorDeDados/median.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ARQCP/ProcessadorDeDados/median.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ARQCP/ProcessadorDeDados/mov_vec.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ARQCP/ProcessadorDeDados/mov_vec.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ARQCP/ProcessadorDeDados/receive.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ARQCP/ProcessadorDeDados/receive.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ARQCP/ProcessadorDeDados/serialize.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ARQCP/ProcessadorDeDados/serialize.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ARQCP/ProcessadorDeDados/structs.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ARQCP/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ARQCP/SaidaDeDados/usac12/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ARQCP/SaidaDeDados/usac12/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ARQCP/SaidaDeDados/usac12/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ARQCP/SaidaDeDados/usac12/config.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ARQCP/SaidaDeDados/usac12/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ARQCP/SaidaDeDados/usac12/main.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ARQCP/SaidaDeDados/usac12/prog_pointer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ARQCP/SaidaDeDados/usac13/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ARQCP/SaidaDeDados/usac13/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ARQCP/SaidaDeDados/usac13/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ARQCP/SaidaDeDados/usac13/structs.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ARQCP/usac09/structs.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/BDDAD/extra/Testes_bd_sprint3.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/BDDAD/extra/fnc_culturas_por_parcela.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/BDDAD/extra/fnc_culturas_por_parcela_sem_produto.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/BDDAD/extra/pro_create_operacao_rega.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/BDDAD/import_full.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/BDDAD/usbd24/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/BDDAD/usbd24/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/BDDAD/usbd25/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/BDDAD/usbd25/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/BDDAD/usbd25/usbd25.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/BDDAD/usbd26/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/BDDAD/usbd26/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/BDDAD/usbd26/usbd26.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/BDDAD/usbd27/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/BDDAD/usbd27/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/BDDAD/usbd27/usbd27.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/BDDAD/usbd28/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/BDDAD/usbd28/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/BDDAD/usbd28/usbd28.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/BDDAD/usbd29/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/BDDAD/usbd29/Logical.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/BDDAD/usbd29/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/BDDAD/usbd29/import_dados_novos.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/BDDAD/usbd29/logical-diagram.vpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/BDDAD/usbd29/logical-diagram.vpp.bak_000f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/BDDAD/usbd29/logical-diagram.vpp.bak_001d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/BDDAD/usbd29/logical-diagram.vpp.bak_002d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/BDDAD/usbd29/logical-diagram.vpp.bak_003d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/BDDAD/usbd29/physicaldiagram.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/BDDAD/usbd30/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/BDDAD/usbd30/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/BDDAD/usbd30/usbd30.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/BDDAD/usbd31/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/BDDAD/usbd31/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/BDDAD/usbd31/usbd31.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/BDDAD/usbd32/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/BDDAD/usbd32/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/BDDAD/usbd32/usbd32.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/BDDAD/usbd33/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/BDDAD/usbd33/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/BDDAD/usbd33/usbd33.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ESINF/Domain_Model_esinf.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ESINF/usei05/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ESINF/usei05/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ESINF/usei06/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ESINF/usei06/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ESINF/usei07/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ESINF/usei07/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ESINF/usei08/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ESINF/usei08/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ESINF/usei09/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ESINF/usei09/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ESINF/usei11/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/ESINF/usei11/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/FSIAP/usfa04/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/FSIAP/usfa04/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/FSIAP/usfa05/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/FSIAP/usfa05/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/FSIAP/usfa06/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/FSIAP/usfa06/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/FSIAP/usfa07/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/FSIAP/usfa07/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/FSIAP/usfa08/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/FSIAP/usfa08/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/FSIAP/usfa08/read_values_minute_to_minute.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/LAPR3/uslp10/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/LAPR3/uslp10/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/LAPR3/uslp11/01.requirements-engineering/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/sprint3/LAPR3/uslp11/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/template/analysis.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/template/suplementary-specification.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/template/us-template.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/template/use-case-diagram.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2jq1JM07cclbSQAGTdI3nD52B1W" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e030880f-2bd2-422a-a5b3-80b28ffdbac3" name="Changes" comment="" />
+      <created>1722099719632</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1722099719632</updated>
+      <workItem from="1722099721465" duration="662000" />
+    </task>
+    <task id="LOCAL-00001" summary="INITAL COMMIT test- update code">
+      <created>1722099987811</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722099987812</updated>
+    </task>
+    <task id="LOCAL-00002" summary="INITAL COMMIT test readme">
+      <created>1722100293430</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722100293430</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="INITAL COMMIT test- update code" />
+    <MESSAGE value="INITAL COMMIT test readme" />
+    <MESSAGE value="update files pt 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="update files pt 1" />
+  </component>
+</project>

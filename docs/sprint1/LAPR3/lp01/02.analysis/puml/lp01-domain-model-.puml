@@ -1,0 +1,147 @@
+@startuml
+skinparam monochrome true
+skinparam packageStyle rectangle
+skinparam shadowing false
+
+'left to right direction
+
+skinparam classAttributeIconSize 0
+
+hide circle
+hide methods
+
+
+
+class ParcelaAgricola {
+    designacao
+    area
+}
+
+class Cultura {
+    nome
+    tipoCultura
+}
+
+
+class Cabaz{
+    quantidade
+    data
+}
+
+class FactorProducao {
+    nomeComercial
+    fabricante
+    Formulacao
+    aplicacaoFactorProducao
+    tipoFactorProducao
+}
+
+
+class FichaTecnica{
+    quantidade
+    nomeElementoSubstancia
+}
+
+
+
+class SensorMetereologico {
+    marca
+    modelo
+     tipoSensorMetereologico
+}
+
+
+class LeituraMetereologica {
+    hora
+    pluviosidade
+    temperaturaSolo
+    humidadeSolo
+    velocidadeVento
+    temperaturaAr
+    humidadeAr
+    pressaoAtmosferica
+}
+
+class CadernoCampo {
+
+}
+
+class SistemaDeRega {
+}
+class ProdutosAgricolas{
+    nomeProdutoAgricola
+
+}
+
+class CulturaParcelaAgricola{
+    quantidade
+    dataInicio
+    dataFim
+}
+
+class Unidade{
+    designação
+}
+
+
+class OperacaoAgricola{
+        dataRealizacao
+        quantidadeAplicada
+         tipoOperacaoAgricola
+}
+
+
+class PlanoRega{
+    horasRega
+    duracao
+    tipoRegularidade
+
+}
+
+class HubsDestribuicao{
+    nomeConsumidor
+    nomeProdutor
+}
+
+class HubsDestribuicaoCabaz{
+}
+
+class EstacaoMetereologica{
+}
+
+class Controlador{
+
+}
+
+
+Cultura "1" - "1..*" CulturaParcelaAgricola : tem >
+Cultura "1" -- "*"  FactorProducao : tem >
+CulturaParcelaAgricola "1..*" -- "1" ParcelaAgricola : contem >
+CulturaParcelaAgricola "1..*" -- "1" Unidade : têm >
+Unidade "1" -- "1..*" OperacaoAgricola : tem <
+SensorMetereologico "1" -- "1..*" LeituraMetereologica: faz >
+
+SistemaDeRega "1" - "1...*" Cultura : tem <
+
+OperacaoAgricola "1" -- "1..*"  ParcelaAgricola : tem >
+ParcelaAgricola "1"--"1..*"  LeituraMetereologica : são realizadas <
+Cabaz "1" -- "1..*" ProdutosAgricolas : contém >
+Controlador "1" - "1" SistemaDeRega : contém <
+Controlador "1" -- "1" PlanoRega : define >
+
+Cabaz "1" -- "1..*" HubsDestribuicaoCabaz : são depositados >
+HubsDestribuicao "1" - "1..*" HubsDestribuicaoCabaz : são depositados >
+
+ProdutosAgricolas "1..*" -- "1" OperacaoAgricola : recolhidos  >
+
+
+PlanoRega "1" -- "1..*" ParcelaAgricola : tem >
+PlanoRega "1" - "1..*" LeituraMetereologica : contem >
+
+
+FichaTecnica "1..*" - "1" FactorProducao : tem <
+CadernoCampo "1" -- "1..*" OperacaoAgricola : regista >
+
+EstacaoMetereologica "1" - "1..*" SensorMetereologico : constituída por >
+
+@enduml

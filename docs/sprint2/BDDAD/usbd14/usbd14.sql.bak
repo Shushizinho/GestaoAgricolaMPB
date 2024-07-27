@@ -1,0 +1,60 @@
+CREATE OR REPLACE PROCEDURE insertProductAplication (
+    datarealizacao_e   DATE,
+    quantidade_e   NUMBER,
+    unidadedesignacao_e VARCHAR2,
+    culturaid_e NUMBER,
+    fatorproducaoid_e NUMBER
+) AS
+    v_OperacaoID NUMBER;
+    v_Modo VARCHAR2(255);
+BEGIN
+
+IF datarealizacao_e > TRUNC(CURRENT_DATE) THEN
+   raise_application_error(-20001, 'Dados não inseridos, data no futuro');
+END IF;
+
+INSERT INTO operacaoagricola(tipooperacao, cadernocampoid, datarealizacao, quantidade, unidadedesignacao, culturaid)
+VALUES ('Aplicação de fator de produção', 1, datarealizacao_e, quantidade_e, unidadedesignacao_e, culturaid_e)
+RETURNING ID INTO v_OperacaoID;
+
+SELECT LOWER(aplicacao) INTO v_Modo from fatorproducao where ID = fatorproducaoid_e;
+
+IF v_Modo LIKE '% solo%' THEN
+	v_Modo := 'Solo';
+ELSIF v_Modo LIKE '% foliar%' THEN
+	v_Modo := 'Foliar';
+ELSE
+	v_Modo := null;
+END IF;
+
+INSERT INTO AplicacaoFator VALUES (v_OperacaoID, fatorproducaoid_e, v_Modo, quantidade_e, unidadedesignacao_e);
+
+COMMIT;
+EXCEPTION
+    WHEN OTHERS THEN
+        RAISE;
+END insertProductAplication;
+
+
+
+
+
+
+
+
+------------------------------------------- tests
+
+
+
+DECLARE
+    v_CulturaID         NUMBER := 1; 
+    v_ProdutoAgricolaID NUMBER := 1; 
+BEGIN
+    insertProductAplication(
+        TO_DATE('04-04-2023','DD-MM-YYYY'),
+		130,
+		'Kg',
+		13,
+		1
+    );
+END;
