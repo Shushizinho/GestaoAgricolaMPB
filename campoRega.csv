@@ -1,0 +1,264 @@
+TipoOperação,DataRealização,Quantidade,Unidade,ParcelaNome,HoraInicio,HoraFim
+Rega,11/11/2023,14,Min,Campo Grande,8:30,8:44
+Rega,11/11/2023,8,Min,Lameiro da ponte,8:44,8:52
+Rega,11/11/2023,25,Min,Vinha,8:52,9:17
+Rega,11/11/2023,7,Min,Horta Nova,9:17,9:24
+Rega,11/11/2023,10,Min,Campo do poço,9:24,9:34
+Rega,11/11/2023,14,Min,Campo Grande,17:0,17:14
+Rega,11/11/2023,8,Min,Lameiro da ponte,17:14,17:22
+Rega,11/11/2023,25,Min,Vinha,17:22,17:47
+Rega,11/11/2023,7,Min,Horta Nova,17:47,17:54
+Rega,11/11/2023,10,Min,Campo do poço,17:54,18:4
+Rega,12/11/2023,14,Min,Campo Grande,8:30,8:44
+Rega,12/11/2023,8,Min,Lameiro da ponte,8:44,8:52
+Rega,12/11/2023,25,Min,Campo da bouça,8:52,9:17
+Rega,12/11/2023,7,Min,Horta Nova,9:17,9:24
+Rega,12/11/2023,14,Min,Campo Grande,17:0,17:14
+Rega,12/11/2023,8,Min,Lameiro da ponte,17:14,17:22
+Rega,12/11/2023,25,Min,Campo da bouça,17:22,17:47
+Rega,12/11/2023,7,Min,Horta Nova,17:47,17:54
+Rega,13/11/2023,14,Min,Campo Grande,8:30,8:44
+Rega,13/11/2023,8,Min,Lameiro da ponte,8:44,8:52
+Rega,13/11/2023,25,Min,Vinha,8:52,9:17
+Rega,13/11/2023,7,Min,Horta Nova,9:17,9:24
+Rega,13/11/2023,14,Min,Campo Grande,17:0,17:14
+Rega,13/11/2023,8,Min,Lameiro da ponte,17:14,17:22
+Rega,13/11/2023,25,Min,Vinha,17:22,17:47
+Rega,13/11/2023,7,Min,Horta Nova,17:47,17:54
+Rega,14/11/2023,14,Min,Campo Grande,8:30,8:44
+Rega,14/11/2023,8,Min,Lameiro da ponte,8:44,8:52
+Rega,14/11/2023,25,Min,Campo da bouça,8:52,9:17
+Rega,14/11/2023,7,Min,Horta Nova,9:17,9:24
+Rega,14/11/2023,10,Min,Campo do poço,9:24,9:34
+Rega,14/11/2023,14,Min,Campo Grande,17:0,17:14
+Rega,14/11/2023,8,Min,Lameiro da ponte,17:14,17:22
+Rega,14/11/2023,25,Min,Campo da bouça,17:22,17:47
+Rega,14/11/2023,7,Min,Horta Nova,17:47,17:54
+Rega,14/11/2023,10,Min,Campo do poço,17:54,18:4
+Rega,15/11/2023,14,Min,Campo Grande,8:30,8:44
+Rega,15/11/2023,8,Min,Lameiro da ponte,8:44,8:52
+Rega,15/11/2023,25,Min,Vinha,8:52,9:17
+Rega,15/11/2023,7,Min,Horta Nova,9:17,9:24
+Rega,15/11/2023,14,Min,Campo Grande,17:0,17:14
+Rega,15/11/2023,8,Min,Lameiro da ponte,17:14,17:22
+Rega,15/11/2023,25,Min,Vinha,17:22,17:47
+Rega,15/11/2023,7,Min,Horta Nova,17:47,17:54
+Rega,16/11/2023,14,Min,Campo Grande,8:30,8:44
+Rega,16/11/2023,8,Min,Lameiro da ponte,8:44,8:52
+Rega,16/11/2023,25,Min,Campo da bouça,8:52,9:17
+Rega,16/11/2023,7,Min,Horta Nova,9:17,9:24
+Rega,16/11/2023,14,Min,Campo Grande,17:0,17:14
+Rega,16/11/2023,8,Min,Lameiro da ponte,17:14,17:22
+Rega,16/11/2023,25,Min,Campo da bouça,17:22,17:47
+Rega,16/11/2023,7,Min,Horta Nova,17:47,17:54
+Rega,17/11/2023,14,Min,Campo Grande,8:30,8:44
+Rega,17/11/2023,8,Min,Lameiro da ponte,8:44,8:52
+Rega,17/11/2023,25,Min,Vinha,8:52,9:17
+Rega,17/11/2023,7,Min,Horta Nova,9:17,9:24
+Rega,17/11/2023,10,Min,Campo do poço,9:24,9:34
+Rega,17/11/2023,14,Min,Campo Grande,17:0,17:14
+Rega,17/11/2023,8,Min,Lameiro da ponte,17:14,17:22
+Rega,17/11/2023,25,Min,Vinha,17:22,17:47
+Rega,17/11/2023,7,Min,Horta Nova,17:47,17:54
+Rega,17/11/2023,10,Min,Campo do poço,17:54,18:4
+Rega,18/11/2023,14,Min,Campo Grande,8:30,8:44
+Rega,18/11/2023,8,Min,Lameiro da ponte,8:44,8:52
+Rega,18/11/2023,25,Min,Campo da bouça,8:52,9:17
+Rega,18/11/2023,7,Min,Horta Nova,9:17,9:24
+Rega,18/11/2023,14,Min,Campo Grande,17:0,17:14
+Rega,18/11/2023,8,Min,Lameiro da ponte,17:14,17:22
+Rega,18/11/2023,25,Min,Campo da bouça,17:22,17:47
+Rega,18/11/2023,7,Min,Horta Nova,17:47,17:54
+Rega,19/11/2023,14,Min,Campo Grande,8:30,8:44
+Rega,19/11/2023,8,Min,Lameiro da ponte,8:44,8:52
+Rega,19/11/2023,25,Min,Vinha,8:52,9:17
+Rega,19/11/2023,7,Min,Horta Nova,9:17,9:24
+Rega,19/11/2023,14,Min,Campo Grande,17:0,17:14
+Rega,19/11/2023,8,Min,Lameiro da ponte,17:14,17:22
+Rega,19/11/2023,25,Min,Vinha,17:22,17:47
+Rega,19/11/2023,7,Min,Horta Nova,17:47,17:54
+Rega,20/11/2023,14,Min,Campo Grande,8:30,8:44
+Rega,20/11/2023,8,Min,Lameiro da ponte,8:44,8:52
+Rega,20/11/2023,25,Min,Campo da bouça,8:52,9:17
+Rega,20/11/2023,7,Min,Horta Nova,9:17,9:24
+Rega,20/11/2023,10,Min,Campo do poço,9:24,9:34
+Rega,20/11/2023,14,Min,Campo Grande,17:0,17:14
+Rega,20/11/2023,8,Min,Lameiro da ponte,17:14,17:22
+Rega,20/11/2023,25,Min,Campo da bouça,17:22,17:47
+Rega,20/11/2023,7,Min,Horta Nova,17:47,17:54
+Rega,20/11/2023,10,Min,Campo do poço,17:54,18:4
+Rega,21/11/2023,14,Min,Campo Grande,8:30,8:44
+Rega,21/11/2023,8,Min,Lameiro da ponte,8:44,8:52
+Rega,21/11/2023,25,Min,Vinha,8:52,9:17
+Rega,21/11/2023,7,Min,Horta Nova,9:17,9:24
+Rega,21/11/2023,14,Min,Campo Grande,17:0,17:14
+Rega,21/11/2023,8,Min,Lameiro da ponte,17:14,17:22
+Rega,21/11/2023,25,Min,Vinha,17:22,17:47
+Rega,21/11/2023,7,Min,Horta Nova,17:47,17:54
+Rega,22/11/2023,14,Min,Campo Grande,8:30,8:44
+Rega,22/11/2023,8,Min,Lameiro da ponte,8:44,8:52
+Rega,22/11/2023,25,Min,Campo da bouça,8:52,9:17
+Rega,22/11/2023,7,Min,Horta Nova,9:17,9:24
+Rega,22/11/2023,14,Min,Campo Grande,17:0,17:14
+Rega,22/11/2023,8,Min,Lameiro da ponte,17:14,17:22
+Rega,22/11/2023,25,Min,Campo da bouça,17:22,17:47
+Rega,22/11/2023,7,Min,Horta Nova,17:47,17:54
+Rega,23/11/2023,14,Min,Campo Grande,8:30,8:44
+Rega,23/11/2023,8,Min,Lameiro da ponte,8:44,8:52
+Rega,23/11/2023,25,Min,Vinha,8:52,9:17
+Rega,23/11/2023,7,Min,Horta Nova,9:17,9:24
+Rega,23/11/2023,10,Min,Campo do poço,9:24,9:34
+Rega,23/11/2023,14,Min,Campo Grande,17:0,17:14
+Rega,23/11/2023,8,Min,Lameiro da ponte,17:14,17:22
+Rega,23/11/2023,25,Min,Vinha,17:22,17:47
+Rega,23/11/2023,7,Min,Horta Nova,17:47,17:54
+Rega,23/11/2023,10,Min,Campo do poço,17:54,18:4
+Rega,24/11/2023,14,Min,Campo Grande,8:30,8:44
+Rega,24/11/2023,8,Min,Lameiro da ponte,8:44,8:52
+Rega,24/11/2023,25,Min,Campo da bouça,8:52,9:17
+Rega,24/11/2023,7,Min,Horta Nova,9:17,9:24
+Rega,24/11/2023,14,Min,Campo Grande,17:0,17:14
+Rega,24/11/2023,8,Min,Lameiro da ponte,17:14,17:22
+Rega,24/11/2023,25,Min,Campo da bouça,17:22,17:47
+Rega,24/11/2023,7,Min,Horta Nova,17:47,17:54
+Rega,25/11/2023,14,Min,Campo Grande,8:30,8:44
+Rega,25/11/2023,8,Min,Lameiro da ponte,8:44,8:52
+Rega,25/11/2023,25,Min,Vinha,8:52,9:17
+Rega,25/11/2023,7,Min,Horta Nova,9:17,9:24
+Rega,25/11/2023,14,Min,Campo Grande,17:0,17:14
+Rega,25/11/2023,8,Min,Lameiro da ponte,17:14,17:22
+Rega,25/11/2023,25,Min,Vinha,17:22,17:47
+Rega,25/11/2023,7,Min,Horta Nova,17:47,17:54
+Rega,26/11/2023,14,Min,Campo Grande,8:30,8:44
+Rega,26/11/2023,8,Min,Lameiro da ponte,8:44,8:52
+Rega,26/11/2023,25,Min,Campo da bouça,8:52,9:17
+Rega,26/11/2023,7,Min,Horta Nova,9:17,9:24
+Rega,26/11/2023,10,Min,Campo do poço,9:24,9:34
+Rega,26/11/2023,14,Min,Campo Grande,17:0,17:14
+Rega,26/11/2023,8,Min,Lameiro da ponte,17:14,17:22
+Rega,26/11/2023,25,Min,Campo da bouça,17:22,17:47
+Rega,26/11/2023,7,Min,Horta Nova,17:47,17:54
+Rega,26/11/2023,10,Min,Campo do poço,17:54,18:4
+Rega,27/11/2023,14,Min,Campo Grande,8:30,8:44
+Rega,27/11/2023,8,Min,Lameiro da ponte,8:44,8:52
+Rega,27/11/2023,25,Min,Vinha,8:52,9:17
+Rega,27/11/2023,7,Min,Horta Nova,9:17,9:24
+Rega,27/11/2023,14,Min,Campo Grande,17:0,17:14
+Rega,27/11/2023,8,Min,Lameiro da ponte,17:14,17:22
+Rega,27/11/2023,25,Min,Vinha,17:22,17:47
+Rega,27/11/2023,7,Min,Horta Nova,17:47,17:54
+Rega,28/11/2023,14,Min,Campo Grande,8:30,8:44
+Rega,28/11/2023,8,Min,Lameiro da ponte,8:44,8:52
+Rega,28/11/2023,25,Min,Campo da bouça,8:52,9:17
+Rega,28/11/2023,7,Min,Horta Nova,9:17,9:24
+Rega,28/11/2023,14,Min,Campo Grande,17:0,17:14
+Rega,28/11/2023,8,Min,Lameiro da ponte,17:14,17:22
+Rega,28/11/2023,25,Min,Campo da bouça,17:22,17:47
+Rega,28/11/2023,7,Min,Horta Nova,17:47,17:54
+Rega,29/11/2023,14,Min,Campo Grande,8:30,8:44
+Rega,29/11/2023,8,Min,Lameiro da ponte,8:44,8:52
+Rega,29/11/2023,25,Min,Vinha,8:52,9:17
+Rega,29/11/2023,7,Min,Horta Nova,9:17,9:24
+Rega,29/11/2023,10,Min,Campo do poço,9:24,9:34
+Rega,29/11/2023,14,Min,Campo Grande,17:0,17:14
+Rega,29/11/2023,8,Min,Lameiro da ponte,17:14,17:22
+Rega,29/11/2023,25,Min,Vinha,17:22,17:47
+Rega,29/11/2023,7,Min,Horta Nova,17:47,17:54
+Rega,29/11/2023,10,Min,Campo do poço,17:54,18:4
+Rega,30/11/2023,14,Min,Campo Grande,8:30,8:44
+Rega,30/11/2023,8,Min,Lameiro da ponte,8:44,8:52
+Rega,30/11/2023,25,Min,Campo da bouça,8:52,9:17
+Rega,30/11/2023,7,Min,Horta Nova,9:17,9:24
+Rega,30/11/2023,14,Min,Campo Grande,17:0,17:14
+Rega,30/11/2023,8,Min,Lameiro da ponte,17:14,17:22
+Rega,30/11/2023,25,Min,Campo da bouça,17:22,17:47
+Rega,30/11/2023,7,Min,Horta Nova,17:47,17:54
+Rega,01/12/2023,14,Min,Campo Grande,8:30,8:44
+Rega,01/12/2023,8,Min,Lameiro da ponte,8:44,8:52
+Rega,01/12/2023,25,Min,Vinha,8:52,9:17
+Rega,01/12/2023,7,Min,Horta Nova,9:17,9:24
+Rega,01/12/2023,14,Min,Campo Grande,17:0,17:14
+Rega,01/12/2023,8,Min,Lameiro da ponte,17:14,17:22
+Rega,01/12/2023,25,Min,Vinha,17:22,17:47
+Rega,01/12/2023,7,Min,Horta Nova,17:47,17:54
+Rega,02/12/2023,14,Min,Campo Grande,8:30,8:44
+Rega,02/12/2023,8,Min,Lameiro da ponte,8:44,8:52
+Rega,02/12/2023,25,Min,Campo da bouça,8:52,9:17
+Rega,02/12/2023,7,Min,Horta Nova,9:17,9:24
+Rega,02/12/2023,10,Min,Campo do poço,9:24,9:34
+Rega,02/12/2023,14,Min,Campo Grande,17:0,17:14
+Rega,02/12/2023,8,Min,Lameiro da ponte,17:14,17:22
+Rega,02/12/2023,25,Min,Campo da bouça,17:22,17:47
+Rega,02/12/2023,7,Min,Horta Nova,17:47,17:54
+Rega,02/12/2023,10,Min,Campo do poço,17:54,18:4
+Rega,03/12/2023,14,Min,Campo Grande,8:30,8:44
+Rega,03/12/2023,8,Min,Lameiro da ponte,8:44,8:52
+Rega,03/12/2023,25,Min,Vinha,8:52,9:17
+Rega,03/12/2023,7,Min,Horta Nova,9:17,9:24
+Rega,03/12/2023,14,Min,Campo Grande,17:0,17:14
+Rega,03/12/2023,8,Min,Lameiro da ponte,17:14,17:22
+Rega,03/12/2023,25,Min,Vinha,17:22,17:47
+Rega,03/12/2023,7,Min,Horta Nova,17:47,17:54
+Rega,04/12/2023,14,Min,Campo Grande,8:30,8:44
+Rega,04/12/2023,8,Min,Lameiro da ponte,8:44,8:52
+Rega,04/12/2023,25,Min,Campo da bouça,8:52,9:17
+Rega,04/12/2023,7,Min,Horta Nova,9:17,9:24
+Rega,04/12/2023,14,Min,Campo Grande,17:0,17:14
+Rega,04/12/2023,8,Min,Lameiro da ponte,17:14,17:22
+Rega,04/12/2023,25,Min,Campo da bouça,17:22,17:47
+Rega,04/12/2023,7,Min,Horta Nova,17:47,17:54
+Rega,05/12/2023,14,Min,Campo Grande,8:30,8:44
+Rega,05/12/2023,8,Min,Lameiro da ponte,8:44,8:52
+Rega,05/12/2023,25,Min,Vinha,8:52,9:17
+Rega,05/12/2023,7,Min,Horta Nova,9:17,9:24
+Rega,05/12/2023,10,Min,Campo do poço,9:24,9:34
+Rega,05/12/2023,14,Min,Campo Grande,17:0,17:14
+Rega,05/12/2023,8,Min,Lameiro da ponte,17:14,17:22
+Rega,05/12/2023,25,Min,Vinha,17:22,17:47
+Rega,05/12/2023,7,Min,Horta Nova,17:47,17:54
+Rega,05/12/2023,10,Min,Campo do poço,17:54,18:4
+Rega,06/12/2023,14,Min,Campo Grande,8:30,8:44
+Rega,06/12/2023,8,Min,Lameiro da ponte,8:44,8:52
+Rega,06/12/2023,25,Min,Campo da bouça,8:52,9:17
+Rega,06/12/2023,7,Min,Horta Nova,9:17,9:24
+Rega,06/12/2023,14,Min,Campo Grande,17:0,17:14
+Rega,06/12/2023,8,Min,Lameiro da ponte,17:14,17:22
+Rega,06/12/2023,25,Min,Campo da bouça,17:22,17:47
+Rega,06/12/2023,7,Min,Horta Nova,17:47,17:54
+Rega,07/12/2023,14,Min,Campo Grande,8:30,8:44
+Rega,07/12/2023,8,Min,Lameiro da ponte,8:44,8:52
+Rega,07/12/2023,25,Min,Vinha,8:52,9:17
+Rega,07/12/2023,7,Min,Horta Nova,9:17,9:24
+Rega,07/12/2023,14,Min,Campo Grande,17:0,17:14
+Rega,07/12/2023,8,Min,Lameiro da ponte,17:14,17:22
+Rega,07/12/2023,25,Min,Vinha,17:22,17:47
+Rega,07/12/2023,7,Min,Horta Nova,17:47,17:54
+Rega,08/12/2023,14,Min,Campo Grande,8:30,8:44
+Rega,08/12/2023,8,Min,Lameiro da ponte,8:44,8:52
+Rega,08/12/2023,25,Min,Campo da bouça,8:52,9:17
+Rega,08/12/2023,7,Min,Horta Nova,9:17,9:24
+Rega,08/12/2023,10,Min,Campo do poço,9:24,9:34
+Rega,08/12/2023,14,Min,Campo Grande,17:0,17:14
+Rega,08/12/2023,8,Min,Lameiro da ponte,17:14,17:22
+Rega,08/12/2023,25,Min,Campo da bouça,17:22,17:47
+Rega,08/12/2023,7,Min,Horta Nova,17:47,17:54
+Rega,08/12/2023,10,Min,Campo do poço,17:54,18:4
+Rega,09/12/2023,14,Min,Campo Grande,8:30,8:44
+Rega,09/12/2023,8,Min,Lameiro da ponte,8:44,8:52
+Rega,09/12/2023,25,Min,Vinha,8:52,9:17
+Rega,09/12/2023,7,Min,Horta Nova,9:17,9:24
+Rega,09/12/2023,14,Min,Campo Grande,17:0,17:14
+Rega,09/12/2023,8,Min,Lameiro da ponte,17:14,17:22
+Rega,09/12/2023,25,Min,Vinha,17:22,17:47
+Rega,09/12/2023,7,Min,Horta Nova,17:47,17:54
+Rega,10/12/2023,14,Min,Campo Grande,8:30,8:44
+Rega,10/12/2023,8,Min,Lameiro da ponte,8:44,8:52
+Rega,10/12/2023,25,Min,Campo da bouça,8:52,9:17
+Rega,10/12/2023,7,Min,Horta Nova,9:17,9:24
+Rega,10/12/2023,14,Min,Campo Grande,17:0,17:14
+Rega,10/12/2023,8,Min,Lameiro da ponte,17:14,17:22
+Rega,10/12/2023,25,Min,Campo da bouça,17:22,17:47
+Rega,10/12/2023,7,Min,Horta Nova,17:47,17:54
+Rega,11/12/2023,14,Min,Campo Grande,8:30,8:44
+Rega,11/12/2023,8,Min,Lameiro da ponte,8:44,8:52
+Rega,11/12/2023,25,Min,Vinha,8:52,9:17
